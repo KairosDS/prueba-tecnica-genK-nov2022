@@ -1,0 +1,14 @@
+{
+  "name": "generacionk6bis",
+  "version": "1.0.0",
+  "description": "Prueba técnica",
+  "scripts": {
+    "start": "web-dev-server --app-index index.html --watch --open --port 8081"
+  },
+  "keywords": ["kairos", "generación-K"],
+  "devDependencies": {
+    "@web/dev-server": "^0.1.35"
+  },
+  "author": "kairosds",
+  "license": "MIT"
+}
