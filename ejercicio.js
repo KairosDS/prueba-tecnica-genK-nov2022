@@ -51,7 +51,7 @@ const fileColumResult = (file, collum) => {
     return result;
 };
 
-// Final solution
+// Result in an array of multiply files from array1 and collums from array2
 let result = [];
 
 // Pushing results to Final solution
@@ -59,6 +59,35 @@ result.push(fileColumResult(file1, collum1));
 result.push(fileColumResult(file2, collum2));
 result.push(fileColumResult(file3, collum3));
 
-// Shows final solution in console
-console.log(result)
+let stringResult = result.join("")
+
+// function for get the Final result
+const stringSeparator = (str) =>{
+
+    // Separate the string every chacarter and create an Array
+    let arrSepString = str.match(/.{1,3}/g);
+
+    arrSepString.forEach(c =>{
+        if( c.length > 2){
+            finalSolution.push(c)
+            
+        }else if( c.length == 2){
+            finalSolution.push("0"+ c)
+        }else{
+            finalSolution.push("00" + c)
+        }
+    } )
+}
+
+let finalSolution = []
+
+stringSeparator(stringResult)
+
+// Showing the final answer in console
+console.log(finalSolution)
+
+
+
+
+
 
