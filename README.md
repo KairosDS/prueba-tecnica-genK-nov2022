@@ -36,7 +36,7 @@ Escribe el código javascript necesario para pintar un botón en el body y que e
 
 ### Apartado 1b
 
-Mediante javascript haz que al pasar el ratón por encima del botón cambe el texto **"1 botón"** por **"1 botóN"** y al quitar el ratón de encima que vuelva a poner **"1 botón"**
+Mediante javascript haz que al pasar el ratón por encima del botón cambie el texto **"1 botón"** por **"1 botóN"** y al quitar el ratón de encima que vuelva a poner **"1 botón"**
 
 ### Apartado 1c
 
