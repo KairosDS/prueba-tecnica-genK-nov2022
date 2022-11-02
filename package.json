@@ -5,7 +5,10 @@
   "scripts": {
     "start": "web-dev-server --app-index index.html --watch --open --port 8081"
   },
-  "keywords": ["kairos", "generación-K"],
+  "keywords": [
+    "kairos",
+    "generación-K"
+  ],
   "devDependencies": {
     "@web/dev-server": "^0.1.35"
   },
